@@ -1,6 +1,6 @@
-/*! angularjs-slider - v5.5.1 - 
- (c) Rafal Zajac <rzajac@gmail.com>, Valentin Hervieu <valentin@hervieu.me>, Jussi Saarivirta <jusasi@gmail.com>, Angelin Sirbu <angelin.sirbu@gmail.com> - 
- https://github.com/angular-slider/angularjs-slider - 
+/*! angularjs-slider - v5.5.1 -
+ (c) Rafal Zajac <rzajac@gmail.com>, Valentin Hervieu <valentin@hervieu.me>, Jussi Saarivirta <jusasi@gmail.com>, Angelin Sirbu <angelin.sirbu@gmail.com> -
+ https://github.com/angular-slider/angularjs-slider -
  2016-09-22 */
 /*jslint unparam: true */
 /*global angular: false, console: false, define, module */
@@ -2082,7 +2082,7 @@
        */
       applyModel: function() {
         this.internalChange = true;
-        this.scope.$apply();
+        // this.scope.$apply();
         this.callOnChange();
         this.internalChange = false;
       },

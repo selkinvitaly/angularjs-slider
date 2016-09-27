@@ -2086,7 +2086,7 @@
        */
       applyModel: function() {
         this.internalChange = true;
-        this.scope.$apply();
+        // this.scope.$apply();
         this.callOnChange();
         this.internalChange = false;
       },
